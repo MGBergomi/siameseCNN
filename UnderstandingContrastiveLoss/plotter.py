@@ -3,8 +3,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 import os
 import sys
-sys.path.append('../../utils')
-from py_utils import *
+
 
 def contrastive_loss1(features1, features2, targets):
 
